@@ -18,20 +18,21 @@ public class Nested_Class {
     }
 }
 
-//With static class
+// With static
+
 // class Outer{
-//     Outer(){
-//         System.out.println("hello world outside");
-//     }
-//     static class Inner{
-//         Inner(){
-//             System.out.println("hello world inside");
-//         }
-//     }
+// Outer(){
+// System.out.println("hello world outside");
+// }
+// static class Inner{
+// Inner(){
+// System.out.println("hello world inside");
+// }
+// }
 // }
 // public class Nested_Class {
-//     public static void main(String args[]) {
-//         Outer.Inner obj2 = new Outer.Inner();
+// public static void main(String args[]) {
+// Outer.Inner obj2 = new Outer.Inner();
 
-//     }
+// }
 // }

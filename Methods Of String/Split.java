@@ -22,5 +22,13 @@ class Split {
             System.out.println(w);
         }
         System.out.println("Split array length: " + arr.length);
+
+        // multiple
+        String input = "2+3-4*5";
+        String[] tokens = input.split("[+\\-*]");
+        for (String token : tokens) {
+            System.out.println(token);
+        }
+
     }
 }
