@@ -21,7 +21,7 @@ public class Overloading_Error {
 		vaTestBoolean(true);
 		vaTestBoolean(false,true,false);
 		
-		vaTestInt();
+		vaTestInt();//error
 		vaTestBoolean();
 	}
 
