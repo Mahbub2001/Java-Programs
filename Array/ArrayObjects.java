@@ -30,6 +30,7 @@ public class ArrayObjects {
 			arrayBox[i].width = inp.nextDouble();
 			arrayBox[i].height = inp.nextDouble();
 			arrayBox[i].depth = inp.nextDouble();
+			
 			// w = inp.nextDouble();
 			// h = inp.nextDouble();
 			// d = inp.nextDouble();
