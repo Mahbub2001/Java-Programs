@@ -26,14 +26,14 @@ public class ArrayObjects {
 		
 		Box arrayBox[] = new Box[3];
 		for(i=0;i<3;i++) {
-			/*arrayBox[i] = new Box();
+			arrayBox[i] = new Box();
 			arrayBox[i].width = inp.nextDouble();
 			arrayBox[i].height = inp.nextDouble();
-			arrayBox[i].depth = inp.nextDouble();*/
-			w = inp.nextDouble();
-			h = inp.nextDouble();
-			d = inp.nextDouble();
-			arrayBox[i] = new Box(w,h,d);
+			arrayBox[i].depth = inp.nextDouble();
+			// w = inp.nextDouble();
+			// h = inp.nextDouble();
+			// d = inp.nextDouble();
+			// arrayBox[i] = new Box(w,h,d);
 		}
 		for(i=0;i<3;i++)
 			System.out.println("Volume of Box object "+(i+1)+": "+arrayBox[i].volume());
