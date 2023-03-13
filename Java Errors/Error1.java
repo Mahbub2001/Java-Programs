@@ -22,4 +22,4 @@
 //         System.out.println("sum4 = " + sum4);
 //     }
 // }
-// //you cannot use 2 args at a time...
+// //you cannot use 2 args at a time... A method can have only one varargs parameter.
