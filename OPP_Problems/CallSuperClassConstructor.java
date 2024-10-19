@@ -17,3 +17,6 @@ public class CallSuperClassConstructor {
         B ob = new B();
     }
 }
+
+// This is A constructor
+// B Constructor

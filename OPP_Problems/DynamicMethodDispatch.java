@@ -44,7 +44,7 @@ public class DynamicMethodDispatch {
         // runtime polymorphism
         Phone obj = new SmartPhone();
 
-        obj.on();
+        obj.on();//Starting the Smart Phone...
         // obj.music();//It will show an error
 
         A a = new A(); // object of type A
